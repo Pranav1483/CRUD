@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const EMPLOYEE_API_BASE_URL = "http://localhost:8080/api"
+const EMPLOYEE_API_BASE_URL = "https://spring-crud-service.onrender.com/api"
 
 class EmployeeService {
     saveEmployee(employee) {

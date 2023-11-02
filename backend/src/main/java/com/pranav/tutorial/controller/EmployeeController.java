@@ -19,7 +19,7 @@ import com.pranav.tutorial.services.EmployeeService;
 
 @RestController
 @RequestMapping("/api/")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://crud-react-vert.vercel.app/")
 public class EmployeeController {
     
     private final EmployeeService employeeService;
